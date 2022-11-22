@@ -16,22 +16,26 @@ h1 {
 }
 
 h2 {
-    position: absolute;
-    width: 64px;
-    height: 33px;
-    left: 475px;
-    top: 135px;
+   /* 나의 학생 */
 
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    /* identical to box height */
 
-    letter-spacing: -0.05em;
-
-    color: #000000;
+   position: absolute;
+   width: 90px;
+   height: 33px;
+   left: 475px;
+   top: 135px;
+   
+   font-family: 'Noto Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   /* identical to box height */
+   
+   letter-spacing: -0.05em;
+   
+   color: #000000;
+   
 }
 
 #search {
@@ -74,12 +78,12 @@ nav a {
 nav a:nth-of-type(1) {
     position: absolute;
     top: 34px;
-    color: #000000;
 }
 
 nav a:nth-of-type(2) {
     position: absolute;
     top: 91px;
+    color: #000000;
 }
 
 nav a:nth-of-type(3) {
