@@ -56,6 +56,42 @@ nav {
     border-radius: 10px;
 }
 
+nav a {
+    position: absolute;
+    left: 58px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #A7A7A7;
+
+    text-decoration: none;
+}
+
+nav a:nth-of-type(1) {
+    position: absolute;
+    top: 34px;
+    color: #000000;
+}
+
+nav a:nth-of-type(2) {
+    position: absolute;
+    top: 91px;
+}
+
+nav a:nth-of-type(3) {
+    position: absolute;
+    top: 148px;
+}
+
+nav a:nth-of-type(4) {
+    position: absolute;
+    top: 205px;
+}
+
 #resource {
     text-decoration: none;
     position: absolute;
@@ -177,6 +213,6 @@ img {
     height: 60px;
     top: 67px;
     left: 26px;
-    
+
     border-radius: 99px;
 }
