@@ -216,3 +216,13 @@ img {
 
     border-radius: 99px;
 }
+
+#rightBox {
+    position: absolute;
+    width: 340px;
+    height: 1080px;
+    left: 1580px;
+    top: 0px;
+
+    background: #FAFAFF;
+}
