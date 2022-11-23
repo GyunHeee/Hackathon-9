@@ -10,17 +10,17 @@ h1 {
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    /* identical to box height */
+   
 
     color: #000000;
 }
 
 h2 {
-   /* 프로필 */
+   /* 강의자료실 */
 
 
    position: absolute;
-   width: 90px;
+   width: 130px;
    height: 33px;
    left: 475px;
    top: 135px;
@@ -78,21 +78,26 @@ nav a:nth-of-type(1) {
     position: absolute;
     top: 34px;
     color: #000000;
+
+
 }
 
 nav a:nth-of-type(2) {
     position: absolute;
     top: 91px;
+    color: #000000;
 }
 
 nav a:nth-of-type(3) {
     position: absolute;
     top: 148px;
+    color: #000000;
 }
 
 nav a:nth-of-type(4) {
     position: absolute;
     top: 205px;
+    color: #000000;
 }
 
 
@@ -125,57 +130,4 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
-
-/* 윤규원 님 */
-
-h3 {
-    position: absolute;
-    width: 100px;
-    height: 33px;
-    left: 470px;
-    top: 244px;
-
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    color: #000000;
-}
-
-/*프로필 입력 칸*/
-#explain {
-    position: absolute;
-    width: 954px;
-    height: 60px;
-    left: 483px;
-    top: 342px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 4px 20px #DFDFF3;
-    border-radius: 65px;
-}
-
-/* 소갯말을 입력해주세요 */
-
-h4 {
-    /* 소갯말을 입력해주세요 */
-
-
-position: absolute;
-width: 200px;
-height: 22px;
-left: 515px;
-top: 400px;
-
-font-family: 'Noto Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 22px;
-/* identical to box height */
-
-
-color: #B5B5B5;
 }
