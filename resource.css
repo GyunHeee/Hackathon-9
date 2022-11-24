@@ -37,6 +37,25 @@ h2 {
    color: #000000;
    
 }
+/*자료실 링크*/
+button {
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 450px;
+    top: 271px;
+    
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+    
+    color: #000000;
+        
+}
+
 #search {
     position: absolute;
     width: 280px;
