@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>stduent information</title>
     <link rel="stylesheet" href="student.css">
+    <script id="javascript-sdk" src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
 </head>
 <body>
     <header>
@@ -22,9 +23,9 @@
             <img src="img/student_p.png" style="width: 8%; position: absolute; top: 93px; left: 31px">
             <a href="index.html">나의 학생</a>
             <img src="img/calendar_g.png" style="width: 8%;  position: absolute; top: 148px; left: 31px">
-            <a href="calender.html">캘린더</a>
+            <a href="calendar.html">캘린더</a>
             <img src="img/chat_g.png" style="width: 8%; position: absolute; top: 207px; left: 31px">
-            <a href="chatting.html">채팅</a>
+            <a href="chat.html">채팅</a>
 
         </nav>
         <a id="resource" href="resource.html">
@@ -52,6 +53,44 @@
         
         <div id="rightBox"></div>
     </main>
-    <footer></footer>
+    <footer>
+        <a id="kakao-link-btn" href="javascript:sendLink()">
+            <img
+                src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"
+            />
+            </a>
+            <script type="text/javascript">
+            Kakao.init('82f282dcd355c91f8b65c137ab67886d');
+            function sendLink() {
+                Kakao.Link.sendDefault({
+                objectType: 'feed',
+                content: {
+                    title: '수업료 납부 날입니다. (수업료: 48만원)',
+                    description: '수업 날짜: 11/5, 11/7, 11/11, 11/13, 11/15, 11/18, 11/22, 11/25',
+                    imageUrl:
+                    '사진주소',
+                    link: {
+                    mobileWebUrl: '사진클릭시 모바일 주소',
+                    webUrl: '사진클릭시 PC 주소',
+                    },
+                },
+                social: {
+                    likeCount: 0, //99999가 최대입니다
+                    commentCount: 0, //99999가 최대입니다
+                    sharedCount: 0, //99999가 최대입니다
+                },
+                buttons: [
+                    {
+                    title: '납부하기',
+                    link: {
+                        mobileWebUrl: '클릭시 모바일 주소',
+                        webUrl: '클릭시 PC 주소',
+                    },
+                    },
+                ],
+                })
+            }
+            </script>
+    </footer>
 </body>
 </html>
