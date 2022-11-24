@@ -1,3 +1,10 @@
+
+#notification_top{
+    position: absolute;
+    width: 50%;
+    top: 60px;
+    left: 395px;
+}
 h1 {
     position: absolute;
     width: 95px;
@@ -42,12 +49,16 @@ h2 {
     position: absolute;
     width: 280px;
     height: 48px;
-    left: 1165px;
+    left: 896px;
     top: 60px;
-
+    box-shadow: 0px 4px 20px 0px #DFDFF3;
+    border: none;
     background: #FFFFFF;
     border-radius: 20px;
-}
+  
+    padding : 0 0 0 20px;
+  
+  }
 
 nav {
     position: absolute;
@@ -109,14 +120,18 @@ nav a:nth-of-type(4) {
 }
 
 #resource p {
-    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
     color: #FFFFFF;
     font-family: 'Noto Sans KR';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 23px;
-}
+  }
 
 div {
     position: absolute;
@@ -211,14 +226,15 @@ div > p {
     border-radius: 10px;
 }
 
-img {
+.img_s {
+    margin:0px;
+    padding: 0px;
     position: absolute;
-    width: 60px;
-    height: 60px;
-    top: 67px;
-    left: 26px;
-
-    border-radius: 99px;
+    width: 115;
+    height: 115%;
+    top: -15px;
+    left: -20px;
+    
 }
 
 #rightBox {
@@ -230,3 +246,11 @@ img {
 
     background: #FAFAFF;
 }
+
+#profile_img {
+    width: 5%;
+    position: absolute;
+    top: 60px;
+    left: 130px;
+}
+

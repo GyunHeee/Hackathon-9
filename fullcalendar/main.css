@@ -5,6 +5,19 @@
 .fc-not-allowed .fc-event { /* override events' custom cursors */
   cursor: not-allowed;
 }
+
+html, body {
+  height: 100%;
+}
+
+#profile_img {
+  width: 5%;
+  position: absolute;
+  top: 60px;
+  left: 130px;
+}
+
+
 h1 {
   position: absolute;
   width: 95px;
@@ -132,6 +145,8 @@ nav a:nth-of-type(4) {
 }
 
 #resource {
+
+
   text-decoration: none;
   position: absolute;
   width: 220px;
@@ -144,7 +159,13 @@ nav a:nth-of-type(4) {
 }
 
 #resource p {
-  text-align: center;
+  margin: 0;
+  padding: 0;
+
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  
   color: #FFFFFF;
   font-family: 'Noto Sans KR';
   font-style: normal;
@@ -152,6 +173,9 @@ nav a:nth-of-type(4) {
   font-size: 16px;
   line-height: 23px;
 }
+
+
+
 
 /* TODO: not attached to body. attached to specific els. move */
 .fc-unselectable {
