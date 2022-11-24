@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    height: 80%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: absolute;
+    left: 475px;
+    top: 200px;
+}
+.user-container{
+    background: #FFF;
+    flex: 1;
+    display: flex;
+    justify-content: flex-center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.user-container label {
+    font-size: 14px;
+    margin-right: 1rem;
+}
+.user-container input {
+    border-radius: 20px;
+    border: none;
+    height: 100%;
+    background: #E0E0F8;
+}
+.display-container {
+    flex: 12;
+    background: #FAFAFF;
+    overflow-y: scroll;
+}
+.input-container {
+    flex: 1;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    background: #FAFAFF;
+    
+    
+}
+.input-container span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.3rem;
+    width: 100%;
+    
+}
+.chatting-input {
+    font-size: 12px;
+    height: 100%;
+    flex: 8;
+    border: none;
+    border-radius: 20px;
+    background: #E0E0F8;
+}
+.chatting-input::placeholder {
+    color: white;
+}
+.send-button {
+    flex:1;
+    background: #6868F1;
+    border: none;
+    height: 100%;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    
+}
+.chatting-list li {
+    width: 90%;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 0.5rem; 
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile .user {
+    font-size: 10px;
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+}
+.profile .image {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
+.message {
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 12px;
+    margin: 0 5px;
+    flex: 7;
+}
+
+.time {
+    font-size: 10px;
+    margin: 0 5px;
+
+}
+.sent {
+    flex-direction: row-reverse;
+    float: right;
+}
+.sent .message {
+    background: #6868F1;
+    color: white;
+    border-radius: 20px;
+    padding : 10px;
+}
+
+.received .message {
+    background: #fff;
+    border-radius: 20px;
+
+}
+
+h1 {
+    position: absolute;
+    width: 95px;
+    height: 33px;
+    left: 122px;
+    top: 135px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+h2 {
+    position: absolute;
+    width: 64px;
+    height: 33px;
+    left: 475px;
+    top: 135px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: -0.05em;
+
+    color: #000000;
+}
+
+nav {
+    position: absolute;
+    width: 220px;
+    height: 262px;
+    left: 59px;
+    top: 211px;
+
+    background: #FAFAFF;
+    border-radius: 10px;
+}
+
+nav a {
+    position: absolute;
+    left: 58px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #A7A7A7;
+
+    text-decoration: none;
+}
+
+nav a:nth-of-type(1) {
+    position: absolute;
+    top: 34px;
+}
+
+nav a:nth-of-type(2) {
+    position: absolute;
+    top: 91px;
+}
+
+nav a:nth-of-type(3) {
+    position: absolute;
+    top: 148px;
+}
+
+nav a:nth-of-type(4) {
+    color: #000000;
+    position: absolute;
+    top: 205px;
+}
+
+#resource {
+    text-decoration: none;
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 60px;
+    top: 500px;
+
+    background: #6868F1;
+    border-radius: 10px;
+}
+
+#resource p {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+#rightBox {
+    position: absolute;
+    width: 340px;
+    height: 1080px;
+    left: 1580px;
+    top: 0px;
+
+    background: #FAFAFF;
+}
