@@ -22,6 +22,34 @@
         </a>
     </main>
     <div id="rightBox"></div>
+    <!-- TWC chatbot Scripts -->
+    <script src="https://public-common-sdk.s3.ap-northeast-2.amazonaws.com/sdk/seller/Twc.plugin.js"></script>
+
+    <script>
+    (function() {
+    Twc('init', {
+    brandKey: "Your_Brand_Key",
+    channelType: "Chat_or_Scenario",
+    appId: 'Your_App_Id',
+    buttonOption: {
+        showLauncher: true,
+        zIndex: 10,
+        bottom: 25,
+        right: 25
+        }
+    }, function () {
+        Twc.Chat.on('NewMessage', function () {
+            // 메시지(NEW) 뱃지
+        })
+        Twc.Chat.on('EndCounsel', function () {
+            // 상담종료
+        })
+        Twc.Chat.on('OnCounselor', function () {
+            // 상담사 연결
+        })
+        })
+    })();
+    </script>
     <footer></footer>
 </body>
 </html>

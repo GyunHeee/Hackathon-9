@@ -1,3 +1,7 @@
+body, html, main, header, footer {
+    width: auto;
+    height: auto;
+}
 h1 {
     position: absolute;
     width: 95px;
