@@ -21,6 +21,7 @@
 * 작동 영상
 
 https://www.youtube.com/watch?v=U8M2_vnTMJU
+
 https://www.youtube.com/watch?v=WhJZpVl-RDo
 
 ## 더 공부할 점 (추가기능)
