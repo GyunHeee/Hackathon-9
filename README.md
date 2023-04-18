@@ -18,6 +18,8 @@
 * 학생맞춤 캘린더
 * 과외용 채팅
 * 과외비 문자알림 서비스
+* 작동 영상
+
 https://www.youtube.com/watch?v=U8M2_vnTMJU
 https://www.youtube.com/watch?v=WhJZpVl-RDo
 
