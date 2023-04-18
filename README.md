@@ -1,4 +1,5 @@
 # 2022 SW교육원 창업해커톤 경진대회
+## 과외통합정보시스템
 ### 과외학생-교사 간의 모든 학습활동이 전산화된 웹기반 관리시스템
 
 ### 프로필 page
@@ -29,4 +30,5 @@ https://www.youtube.com/watch?v=WhJZpVl-RDo
 * 카카오페이 결제 시스템
 
 ## 발표자료
-[9해조_정말최종.pdf](https://github.com/GyunHeee/Hackathon-9/files/11262191/9._.pdf)
+[창업해커톤_과외통합정보시스템.pdf](https://github.com/GyunHeee/Hackathon-9/files/11262222/_.pdf)
+
