@@ -2,11 +2,15 @@
 ### 과외학생-교사 간의 모든 학습활동이 전산화된 웹기반 관리시스템
 
 ### 프로필 page
+
 <img width="1300" alt="스크린샷 2023-04-17 오후 4 19 28" src="https://user-images.githubusercontent.com/92011224/232789670-f6fc1e57-78af-40ca-aa05-e98239e6d0c1.png">
+
 ### 나의학생 page
 <img width="1300" alt="스크린샷 2023-04-17 오후 4 19 35" src="https://user-images.githubusercontent.com/92011224/232790020-55e31996-3750-45cd-9913-acc42c3dc84a.png">
+
 ### 캘린더 page
 <img width="1300" alt="스크린샷 2023-04-17 오후 4 19 43" src="https://user-images.githubusercontent.com/92011224/232790152-ca4978cc-5347-41d6-b424-7f40801ac300.png">
+
 ### 채팅 page
 <img width="1300" alt="스크린샷 2023-04-17 오후 4 19 50" src="https://user-images.githubusercontent.com/92011224/232790208-ac7bb472-29b8-4915-80be-88d8ad679402.png">
 
